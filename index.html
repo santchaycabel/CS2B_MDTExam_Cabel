@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourist Spots in Ilocos Sur</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header class="Home-Page">
+    <div class="container">
+      <h1>Ilocos Sur Adventure</h1>
+      <nav>
+        <ul class="nav-Bar">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="Contack Page.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="page of ilcos sur.jpg" alt="Beautiful Ilocos Sur scenery">
+    <div class="hero-text">
+      <h2>Ilocos Sur Adventures</h2>
+      <p>Explore the history, nature, and local crafts in one amazing trip in Ilocos Sur.</p>
+    </div>
+  </section>
+
+  <!-- Tourist Spots -->
+  <section class="spots-container">
+    <h2>Top Tourist Spots</h2>
+
+    <div class="spot">
+      <img src="image1.png" alt="Skyline View Deck">
+      <h3>Skyline View Deck</h3>
+      <p>Skyline View Deck offers a wide view of Ilocos Sur. 
+         You can relax, take photos, and enjoy the fresh air. 
+         A simple but stunning spot. 
+         <ul>
+           <li><a href="#">#Skyline</a></li>
+           <li><a href="#">#ViewDeck</a></li>
+           <li><a href="#">#Nature</a></li>
+           <li><a href="#">#Relax</a></li>
+           <li><a href="#">#IlocosSur</a></li>
+         </ul>
+      </p>
+    </div>
+
+    <div class="spot">
+      <img src="image2 .png" alt="Baluarte Zoo">
+      <h3>Baluarte</h3>
+      <p>A famous zoo and safari park in Vigan City owned by Chavit Singson. 
+         You can see tigers, camels, and birds up close. 
+         Fun for families. 
+      </p>
+         <ul>
+         <li><a href="#">#Baluarte</a></li>
+         <li><a href="#">#Zoo</a></li>
+         <li><a href="#">#Safari</a></li>
+         <li><a href="#">#FamilyTrip</a></li>
+         <li><a href="#">#IlocosSur</a></li>
+         </ul>
+    </div>
+
+    <div class="spot">
+      <img src="image3.png" alt="Calle Crisologo">
+      <h3>Calle Crisologo</h3>
+      <p>This cobblestone street is lined with Spanish-style houses and shops. 
+         Perfect for photos and history lovers. 
+         Also, you can buy souvenirs here.
+         <ul>
+           <li><a href="#">#CalleCrisologo</a></li>
+           <li><a href="#">#HistoricStreet</a></li>
+           <li><a href="#">#Vigan</a></li>
+           <li><a href="#">#Culture</a></li>
+           <li><a href="#">#IlocosSur</a></li>
+         </ul>
+      </p>
+    </div>
+  </section>
+
+  <!-- Locale Products Grid -->
+  <section class="products container">
+    <h2>Local Products</h2>
+    <div class="product-grid">
+      <!-- 12 product-->
+       <!--Sky Line Products-->
+      <div class="product-card">
+        <img src="sangi bag.webp" alt="Sangi Bag">
+        <h4>Sangi Bag</h4>
+        <p>The Sangi bag is a handmade bag crafted from natural dried corn husks, giving it a unique and eco-friendly style. 
+           Each bag is woven by local artisans in Quirino, Ilocos Sur, showcasing traditional craftsmanship. 
+           It is lightweight yet durable, making it perfect for everyday use or as a special souvenir from the region.
+        </p>
+        <p class="price">₱600</p>
+        <button onclick="addToCart('Sangi Bag')">Add to Cart</button>
+        <button onclick="removeFromCart('Sangi Bag')">Remove from Cart</button>
+      </div>
+      
+      <div class="product-card">
+        <img src="s-l1600.webp" alt="Sagada Backpack">
+        <h4>Sagada Backpack</h4>
+        <p>The Sagada Backpack is a stylish and functional bag made from traditional Abel fabric, a handwoven textile native to the Ilocos region. 
+           Known for its vibrant colors and intricate patterns, the Abel fabric adds a cultural touch to the backpack. 
+           It is spacious and perfect for carrying your essentials while exploring Ilocos Sur or as a unique gift.
+        </p>
+        <p class="price">₱1,200</p>
+        <button onclick="addToCart('Sagada Backpack')">Add to Cart</button>
+        <button onclick="removeFromCart('Sagada Backpack')">Remove from Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="gong necklace.jpg" alt="Gong Necklace">
+        <h4>Gong Necklace</h4>
+        <p>The Gong Necklace is a unique piece of jewelry that showcases the traditional craftsmanship of the region. 
+           Made from locally sourced materials, each necklace is handcrafted by skilled artisans. 
+           It is a perfect accessory for those who appreciate cultural heritage and want to take a piece of Ilocos Sur home with them.
+        </p>
+        <p class="price">₱1,200</p>
+        <button onclick="addToCart('Gong Necklace')">Add to Cart</button>
+        <button onclick="removeFromCart('Gong Necklace')">Remove from Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="sagada packet wallet.jpg" alt="Sagada Packet Wallet">
+        <h4>Sagada Packet Wallet</h4>
+        <p>The Sagada Packet Wallet is a stylish and functional accessory made from traditional Abel fabric. 
+           Handwoven by local artisans, it features vibrant colors and intricate patterns, making it a unique addition to your collection. 
+           This wallet is perfect for keeping your essentials organized while showcasing the rich cultural heritage of Ilocos Sur.
+        </p>
+        <p class="price">₱120</p>
+        <button onclick="addToCart('sagada packet wallet')">Add to Cart</button>
+        <button onclick="removeFromCart('sagada packet wallet')">Remove from Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!--Baluarte Products-->
+  <section class="products container">
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="Balikucha.jpg" alt="Hemp Tote Bag">
+        <h2>Balikucha</h2>
+        <p>The Balikucha is a traditional Ilocano delicacy that combines various local ingredients into a flavorful and satisfying meal. 
+           It typically includes rice, vegetables, and meat, all wrapped in banana leaves for a unique presentation. 
+           This dish is perfect for those looking to experience the authentic tastes of Ilocos Sur.
+        </p>
+        <p class="price">₱50</p>
+        <button onclick="addToCart('Balikucha')">Add to Cart</button>
+        <button onclick="removeFromCart('Balikucha')">Remove from Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="payabyab.jpg" alt="Hemp Tote Bag">
+        <h2>Retro farming fashionable straw hat </h2>
+        <p>The Retro farming fashionable straw hat is a stylish and practical accessory made from natural straw materials. 
+           It features a wide brim to provide ample shade from the sun, making it perfect for outdoor activities such as farming, gardening, or beach outings. 
+           The hat's vintage design adds a touch of charm, making it a fashionable choice for those who appreciate both function and style.
+        </p>
+        <p class="price">₱60</p>
+        <button onclick="addToCart('payabyab')">Add to Cart</button>
+        <button onclick="removeFromCart('payabyab')">Remove from Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="grape wine.jpg" alt="Hemp Tote Bag">
+        <h2>Ian's Grape Wine</h2>
+        <p>The Ian's Grape Wine is a premium wine made from the finest grapes in the region. 
+           It offers a rich and smooth flavor profile, making it a perfect choice for wine enthusiasts. 
+           Enjoy it on special occasions or as a delightful treat for yourself.
+        </p>
+        <p class="price">₱250</p>
+        <button onclick="addToCart('grape wine')">Add to Cart</button>
+        <button onclick="removeFromCart('grape wine')">Remove from Cart</button>
+      </div>
+      
+      <div class="product-card">
+        <img src="Key chain.jpg" alt="Hemp Tote Bag">
+        <h2>Key Chain Wood</h2>
+        <p>The Key Chain Wood is a charming accessory made from locally sourced wood, often handcrafted by skilled artisans. 
+           It features intricate designs or carvings that reflect the culture and heritage of Ilocos Sur. 
+           This keychain is not only functional but also serves as a unique souvenir or gift for friends and family.
+        </p>
+        <p class="price">₱30</p>
+        <button onclick="addToCart('Key chain')">Add to Cart</button>
+        <button onclick="removeFromCart('Key chain')">Remove from Cart</button>
+      </div>
+
+      <!--Calle Crisologo-->
+      <div class="product-card">
+        <img src="baskets-for-sale-at-a-shop-on-calle-crisologo-in-vigan-city-ilocos-M8Y735.jpg" alt="Hemp Tote Bag">
+        <h2>Basket</h2>
+        <p>The basket is a traditional handwoven item made from natural materials such as rattan or bamboo. 
+           It is commonly used for carrying goods, shopping, or as a decorative piece in homes. 
+           The intricate weaving patterns reflect the craftsmanship of local artisans in Ilocos Sur, making it a unique and practical souvenir.
+        </p>
+        <p class="price">₱160</p>
+        <button onclick="addToCart('baskets-for-sale-at-a-shop-on-calle-crisologo-in-vigan-city-ilocos-M8Y735.jpg')">Add to Cart</button>
+        <button onclick="removeFromCart('baskets-for-sale-at-a-shop-on-calle-crisologo-in-vigan-city-ilocos-M8Y735.jpg')">Remove from Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="historical calle crisologo.jpg" alt="Souvenirs">
+        <h2>Hand-crafted souvenir</h2>
+        <p>The Hand-crafted souvenir is a unique item made by local artisans, often reflecting the culture and traditions of Ilocos Sur. 
+           These souvenirs can include miniature models, decorative items, or traditional crafts that make for meaningful keepsakes or gifts. 
+           Each piece is carefully crafted, showcasing the skill and creativity of the artisans.
+        </p>
+        <p class="price">₱200</p>
+        <button onclick="addToCart('historical calle crisologo.jpg')">Add to Cart</button>
+        <button onclick="removeFromCart('historical calle crisologo.jpg')">Remove from Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="t-shirt.jpg" alt="Hemp Tote Bag">
+        <h2>Pot Wood</h2>
+        <p>The Pot Wood is a beautifully crafted wooden item, often used for decorative purposes or as a functional piece in the home. 
+           Made from locally sourced wood, these items can range from small sculptures to practical household objects. 
+           Each piece is unique, showcasing the natural beauty of the wood and the craftsmanship of Ilocos Sur artisans.
+        </p>
+        <p class="price">₱100</p>
+        <button onclick="addToCart('t-shirt.jpg')">Add to Cart</button>
+        <button onclick="removeFromCart('t-shirt.jpg')">Remove from Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="image.png" alt="Hemp Tote Bag">
+        <h2>Vigan Cup</h2>
+        <p>The Vigan Cup is a beautifully crafted ceramic mug that showcases the traditional artistry of Vigan, Ilocos Sur. 
+           Each cup is hand-painted with intricate designs, making it a unique and functional piece of art. 
+           Perfect for enjoying your favorite hot beverages, the Vigan Cup is a great souvenir or gift for those who appreciate local craftsmanship.
+        </p>
+        <p class="price">₱150</p>
+        <button onclick="addToCart('Vigan Cup')">Add to Cart</button>
+        <button onclick="removeFromCart('Vigan Cup')">Remove from Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Ilocos Sur Adventure. All rights reserved.</p>
+  </footer>
+
+  <script src="index1.js"></script>
+</body>
+</html>
