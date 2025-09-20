@@ -1,8 +1,5 @@
-/* ================================
-   index1.js – Basic Interactivity
-   ================================ */
 
-// Simple cart object to hold items and their counts
+// cart object to hold items and their counts
 const cart = {};
 
 // Add item to cart
