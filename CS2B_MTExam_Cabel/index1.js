@@ -47,3 +47,8 @@ document.querySelectorAll('.product-card img').forEach(img => {
   });
 });
 
+/*
+Primary Reference Collection (verified 2025-09-21):
+- MDN Web Docs, a reputable source for JavaScript and Web APIs: https://developer.mozilla.org/
+Each specific API or language feature above links to its dedicated MDN page for verification.
+*/
