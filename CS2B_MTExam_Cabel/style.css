@@ -89,7 +89,7 @@ header h1 {
   font-size: 1.2rem;
 }
 
-/* ===== Tourist Spots ===== */
+/* Tourist Spots */
 .spots-container {
   width: 90%;
   max-width: 1200px;
@@ -198,3 +198,4 @@ header h1 {
   font-weight: bold;
   color: #a63c3c;
   margin-bot
+
