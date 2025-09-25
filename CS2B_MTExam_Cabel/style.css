@@ -1,4 +1,4 @@
-/* ===== Global Reset & Base ===== */
+/* Global Reset & Base */
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +17,7 @@ img {
   display: block;
 }
 
-/* ===== Header & Navigation ===== */
+/* Header & Navigation */
 header.Home-Page {
   background: linear-gradient(90deg, #a63c3c, #d66b3c);
   color: #fff;
@@ -57,7 +57,7 @@ header h1 {
   border-radius: 5px;
 }
 
-/* ===== Hero Section ===== */
+/* Hero Section  */
 .hero {
   position: relative;
   height: 60vh;
@@ -147,7 +147,7 @@ header h1 {
   color: #fff;
 }
 
-/* ===== Products Grid ===== */
+/* Products Grid */
 .products.container {
   width: 90%;
   max-width: 1200px;
